@@ -11,4 +11,5 @@ int main(){
 cout<<great(10,30)<<endl;
 cout<<great(20.5,10.5)<<endl;
 cout<<great('a','n')<<endl;
+ /*cout<<great(10,20.5);*/   //error template only works for same type of arguments
 }
