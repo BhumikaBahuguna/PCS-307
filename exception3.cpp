@@ -57,3 +57,28 @@ cout<<"integer exception caught";
 return 0;
 }
 */
+
+
+
+/*
+#include<iostream>
+using namespace std;
+int main(){
+int a=20;
+try{
+if(a==10)
+throw 10;
+if(a==30)
+throw "hello";
+if(a==20)
+throw 100;
+}
+catch(...){
+cout<<"exception caught";            //gives error
+}
+catch(int){
+cout<<"integer exception caught";
+}
+return 0;
+}
+*/
